@@ -1,0 +1,19 @@
+.nav {
+  background-color: aqua;
+  height: 10vh;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.navGroup {
+  display: inline-flex;
+  width: 80%;
+  justify-content: space-around;
+}
+.navItem {
+  list-style: none;
+}
+.navLink {
+  text-decoration: none;
+  color: white;
+}
