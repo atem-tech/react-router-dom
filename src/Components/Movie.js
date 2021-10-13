@@ -1,14 +1,7 @@
 import React, { useEffect } from "react";
 
 const Movie = (props) => {
-  //  Title
-  //  Year
-  //  Rated
-  //  Released
-  //  Runtime
-  //  Genre
-  //  Director
-  //  Poster
+
   useEffect(() => {
     console.log("This is about page");
 
@@ -19,11 +12,11 @@ const Movie = (props) => {
   return (
     <div>
       <h1>Title:{props.movie.Title}</h1>
-      <h1>Title:{props.movie.Year}</h1>
-      <h1> Title:{props.movie.Rated}</h1>
-      <h1> Title:{props.movie.Released}</h1>
-      <h1>Title:{props.movie.Actors}</h1>
-      <h1>Title:{props.movie.Directors}</h1>
+      <h1>Year:{props.movie.Year}</h1>
+      <h1> Rated:{props.movie.Rated}</h1>
+      <h1> Released:{props.movie.Released}</h1>
+      <h1>Actors:{props.movie.Actors}</h1>
+      <h1>Directors:{props.movie.Directors}</h1>
       <img src={props.movie.Poster} />
     </div>
   );
